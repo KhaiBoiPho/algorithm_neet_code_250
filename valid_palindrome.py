@@ -10,6 +10,9 @@ class Solution:
             start += 1
             end -= 1
         return True
+    
+    def useGit():
+        return 1
 
 s="0P"
 print(Solution.isPalindrome(s))
